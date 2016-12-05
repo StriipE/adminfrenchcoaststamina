@@ -1,0 +1,236 @@
+.header-content-inner a {
+    margin-top : 175px;
+}
+
+@font-face {
+    font-family: "Legacy";
+    src: url('../fonts/Legacy_new.ttf');
+}
+.playercard {
+    width: 1000px;
+    height: 694px;
+    font-family: "Legacy", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    background-image: url('../img/playercard_bg.png');
+    margin: 10px;
+    padding-top: 2px;
+}
+
+.playerscore {
+    padding: 6px 0 7px 10px;
+}
+.playername {
+    margin: 70px 0 20px 20px;
+}
+
+.playername h2 {
+    font-family: "Legacy", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-size: 40px;
+}
+#mainNav {
+    background-color: #3F3F3F;
+}
+
+.score-form {
+    margin: 70px 0 0 20px;
+}
+
+.form-control {
+    width:15%;
+}
+
+.btn {
+    background-color: #890000;
+}
+
+.ranking-high, .ranking-low {
+    font-family:  'Tahoma', Geneva, sans-serif;
+    padding: 80px;
+}
+
+.ranking-high h1, .ranking-low h1 {
+    font-family: 'Tahoma', Geneva, sans-serif;
+    padding-bottom: 25px;
+    font-style: normal;
+    font-size: 45px;
+}
+
+.table_ranking_high, .table_ranking_low {
+    margin: 0 auto;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+}
+
+.table_ranking_high tr, .table_ranking_low tr {
+    border-top-style: solid;
+    border-top-width: 1px;
+}
+
+.table_ranking_high th, .table_ranking_low th {
+    background-color: #fff0ba;
+    padding: 20px 25px;
+    font-size: 20px;
+    border-right-style: solid;
+    border-right-width: 2px;
+}
+
+.table_ranking_high td, .table_ranking_low td {
+    background-color: #e1e9ff;
+    padding: 12px 25px;
+    font-size: 20px;
+    border-right-style: solid;
+    border-right-width: 2px;
+}
+
+td.table_fantastics {
+    background-color: #d8e3ff;
+}
+
+td.table_excellents {
+    background-color: #ffe9ac;
+}
+
+td.table_greats {
+    background-color: #c0ffc3;
+}
+
+.odd-container {
+    color: #dadada;
+    background-color: #272754;
+    width: 100%;
+}
+.oddIndexPage {
+    padding: 100px 0;
+}
+
+.even-container {
+    color: #dadada;
+    background-color: #890000;
+    width: 100%;
+}
+
+.evenIndexPage {
+    padding: 100px 0;
+    color: #dadada;
+    background-color: #890000;
+}
+
+.separator {
+    padding: 2px 0;
+}
+
+.odd-title h2, .even-title h2{
+    font-size: 40px;
+    padding-bottom: 25px;
+}
+.even-title h2 {
+    text-align: right;
+}
+
+.no-bullet-list-odd {
+    padding-left: 0;
+}
+
+.list-line, .list-line-participation, .list-line-signup, .list-line-whoIsRems, .list-line-diff-adj, .list-line-score-example {
+    font-size: 15px;
+    list-style-type: none;
+    padding: 10px 0;
+    display: block;
+}
+
+.list-line a {
+    font-color: #da0000;
+}
+
+.bullet-list-odd, .bullet-list-odd-participation, .bullet-list-even-whoIsRems, .bullet-list-even-diff-adj, .bullet-list-score-example {
+    margin: 30px 0;
+}
+
+.prizes-paragraph, .participation-paragraph, .isthisecs-paragraph, .high_division_rules_paragraph,
+.odd-paragraph-low-div, .optional_division_rules_paragraph, .download-paragraph, .general-rule-paragraph {
+    padding: 10px 0;
+}
+
+.prizes-h3 {
+    padding: 20px 0;
+    font-size: 35px;
+}
+
+.special-thanks {
+    font-size: 40px;
+    padding: 200px 0;
+    text-align: center;
+}
+
+.stepchart-table {
+    color: #ddd;
+    margin: 40px 0;
+}
+
+.stepchart-table th, .stepchart-table td {
+    padding: 5px 10px;
+}
+
+.table-head th {
+    padding-bottom: 20px;
+}
+
+.credits-paragraph {
+    font-size: 22px;
+    padding: 50px 0;
+}
+
+.rankings-select {
+    cursor: default;
+}
+
+.rankings-select:hover > ul {
+    display: block;
+}
+
+.rankings-select ul {
+    display: none;
+    list-style: none;
+    padding-left: 2px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-top-style: solid;
+    border-top-color: #890000;
+    border-top-width: 1px;
+}
+
+@media only screen and (max-width: 768px) {
+    .rankings-select ul {
+        padding-left: 15px;
+    }
+}
+
+.sub-page-scroll {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 13px;
+    color: rgba(255,255,255,.7);
+}
+
+.blue-link {
+    color: #ffed1a;
+}
+
+.blue-link:hover {
+    color: #ffae1a;
+}
+
+#index-main-button {
+    margin-top: 300px;
+}
+
+.btn-default {
+    color: #FFFFFF;
+}
+
+.bullet-list-odd {
+    font-size: 16px;
+}

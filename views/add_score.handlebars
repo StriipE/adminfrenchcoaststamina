@@ -1,0 +1,40 @@
+ <div class="score-form">
+        <h2>Ajout score High</h2>
+        <form method="post" action="/admin/addScore">
+            <div class="form-group">
+                <label>ID Player</label>
+                <select type="text" class="selectpicker" name="IDPlayer" data-live-search="true">
+                {{#each players}}
+                    <option>{{PlayerID}} - {{Name}}</option>
+                {{/each}}
+                </select>
+            </div>
+            <div class="form-group">
+                <label>ID Song</label>
+                <select type="text" class="selectpicker" name="IDSong" data-live-search="true">
+                    {{#each songs}}
+                        <option>{{SongID}} - {{Name}}</option>
+                    {{/each}}
+                </select>
+            </div>
+            <div class="form-group">
+                <label>ID Difficulty</label>
+                <select type="text" class="selectpicker" name="IDDifficulty" data-live-search="true">
+                        <option>1 - Novice</option>
+                        <option>2 - Easy</option>
+                        <option>3 - Medium</option>
+                        <option>4 - Hard</option>
+                        <option>5 - Expert</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label>Score</label>
+                <input type="text" class="form-control" placeholder="Score" name="Score">
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+        </form>
+
+       <script>
+           $('.selectpicker').selectpicker();
+       </script>
+</div>

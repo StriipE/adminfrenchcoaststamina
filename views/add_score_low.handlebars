@@ -1,0 +1,34 @@
+<div class="score-form">
+    <h2>Ajout score Low</h2>
+    <form method="post" action="/admin/addScoreLow">
+        <div class="form-group">
+            <label>ID Player</label>
+            <select type="text" class="selectpicker" name="IDPlayer" data-live-search="true">
+                {{#each players}}
+                    <option>{{PlayerID}} - {{Name}}</option>
+                {{/each}}
+            </select>
+        </div>
+        <div class="form-group">
+            <label>ID Song</label>
+            <select type="text" class="selectpicker" name="IDSong" data-live-search="true">
+                {{#each songs}}
+                    <option>{{SongID}} - {{Name}}</option>
+                {{/each}}
+            </select>
+        </div>
+        <div class="form-group">
+            <label>Fantastics</label>
+            <input type="text" class="form-control" placeholder="Fantastics" name="Fantastics">
+        </div>
+        <div class="form-group">
+            <label>Excellents</label>
+            <input type="text" class="form-control" placeholder="Excellents" name="Excellents">
+        </div>
+        <div class="form-group">
+            <label>Greats</label>
+            <input type="text" class="form-control" placeholder="Greats" name="Greats">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+    </form>
+</div>
